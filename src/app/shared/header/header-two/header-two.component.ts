@@ -5,9 +5,10 @@ import { WishlistService } from '@/shared/services/wishlist.service';
 import { UtilsService } from '@/shared/services/utils.service';
 
 @Component({
-  selector: 'app-header-two',
-  templateUrl: './header-two.component.html',
-  styleUrls: ['./header-two.component.scss'],
+    selector: 'app-header-two',
+    templateUrl: './header-two.component.html',
+    styleUrls: ['./header-two.component.scss'],
+    standalone: false
 })
 export class HeaderTwoComponent {
   @Input () style_2 : boolean = false;

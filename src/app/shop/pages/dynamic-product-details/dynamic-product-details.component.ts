@@ -6,9 +6,10 @@ import { switchMap } from 'rxjs/operators';
 import { of } from 'rxjs';
 
 @Component({
-  selector: 'app-dynamic-product-details',
-  templateUrl: './dynamic-product-details.component.html',
-  styleUrls: ['./dynamic-product-details.component.scss']
+    selector: 'app-dynamic-product-details',
+    templateUrl: './dynamic-product-details.component.html',
+    styleUrls: ['./dynamic-product-details.component.scss'],
+    standalone: false
 })
 export class DynamicProductDetailsComponent implements OnInit {
   public product: IProduct | null | undefined;

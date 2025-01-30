@@ -3,9 +3,10 @@ import { IBlogType } from '@/types/blog-type';
 import blogData from '@/data/blog-data';
 
 @Component({
-  selector: 'app-blog-grid',
-  templateUrl: './blog-grid.component.html',
-  styleUrls: ['./blog-grid.component.scss']
+    selector: 'app-blog-grid',
+    templateUrl: './blog-grid.component.html',
+    styleUrls: ['./blog-grid.component.scss'],
+    standalone: false
 })
 export class BlogGridComponent {
   @Input() list_style : boolean = false;

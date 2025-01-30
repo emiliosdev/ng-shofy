@@ -6,9 +6,10 @@ import { IProduct } from '@/types/product-type';
 import { ProductService } from '@/shared/services/product.service';
 
 @Component({
-  selector: 'app-fashion-popular-products',
-  templateUrl: './fashion-popular-products.component.html',
-  styleUrls: ['./fashion-popular-products.component.scss'],
+    selector: 'app-fashion-popular-products',
+    templateUrl: './fashion-popular-products.component.html',
+    styleUrls: ['./fashion-popular-products.component.scss'],
+    standalone: false
 })
 
 

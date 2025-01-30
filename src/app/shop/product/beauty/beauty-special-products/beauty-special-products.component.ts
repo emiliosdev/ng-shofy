@@ -5,9 +5,10 @@ import { ProductService } from '@/shared/services/product.service';
 import { IProduct } from '@/types/product-type';
 
 @Component({
-  selector: 'app-beauty-special-products',
-  templateUrl: './beauty-special-products.component.html',
-  styleUrls: ['./beauty-special-products.component.scss']
+    selector: 'app-beauty-special-products',
+    templateUrl: './beauty-special-products.component.html',
+    styleUrls: ['./beauty-special-products.component.scss'],
+    standalone: false
 })
 export class BeautySpecialProductsComponent {
 

@@ -5,9 +5,10 @@ import { ProductService } from 'src/app/shared/services/product.service';
 import { IProduct } from '@/types/product-type';
 
 @Component({
-  selector: 'app-shop-filter-dropdown',
-  templateUrl: './shop-filter-dropdown.component.html',
-  styleUrls: ['./shop-filter-dropdown.component.scss']
+    selector: 'app-shop-filter-dropdown',
+    templateUrl: './shop-filter-dropdown.component.html',
+    styleUrls: ['./shop-filter-dropdown.component.scss'],
+    standalone: false
 })
 export class ShopFilterDropdownComponent {
   public products: IProduct[] = [];

@@ -3,9 +3,10 @@ import { Router } from '@angular/router';
 import { UtilsService } from '@/shared/services/utils.service';
 
 @Component({
-  selector: 'app-header-search',
-  templateUrl: './header-search.component.html',
-  styleUrls: ['./header-search.component.scss']
+    selector: 'app-header-search',
+    templateUrl: './header-search.component.html',
+    styleUrls: ['./header-search.component.scss'],
+    standalone: false
 })
 export class HeaderSearchComponent {
   public searchText: string = '';

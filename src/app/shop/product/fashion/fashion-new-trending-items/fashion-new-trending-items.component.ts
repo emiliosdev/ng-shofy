@@ -5,9 +5,10 @@ import { IProduct } from '@/types/product-type';
 import { ProductService } from '@/shared/services/product.service';
 
 @Component({
-  selector: 'app-fashion-new-trending-items',
-  templateUrl: './fashion-new-trending-items.component.html',
-  styleUrls: ['./fashion-new-trending-items.component.scss'],
+    selector: 'app-fashion-new-trending-items',
+    templateUrl: './fashion-new-trending-items.component.html',
+    styleUrls: ['./fashion-new-trending-items.component.scss'],
+    standalone: false
 })
 export class FashionNewTrendingItemsComponent {
 

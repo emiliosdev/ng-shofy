@@ -3,9 +3,10 @@ import { IProduct } from '@/types/product-type';
 import { ProductService } from '@/shared/services/product.service';
 
 @Component({
-  selector: 'app-beauty-all-products',
-  templateUrl: './beauty-all-products.component.html',
-  styleUrls: ['./beauty-all-products.component.scss']
+    selector: 'app-beauty-all-products',
+    templateUrl: './beauty-all-products.component.html',
+    styleUrls: ['./beauty-all-products.component.scss'],
+    standalone: false
 })
 export class BeautyAllProductsComponent {
   @ViewChild('navActive') navActive!: ElementRef;

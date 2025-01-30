@@ -3,9 +3,10 @@ import { IProduct } from '@/types/product-type';
 import { ProductService } from '@/shared/services/product.service';
 
 @Component({
-  selector: 'app-fashion-all-products',
-  templateUrl: './fashion-all-products.component.html',
-  styleUrls: ['./fashion-all-products.component.scss'],
+    selector: 'app-fashion-all-products',
+    templateUrl: './fashion-all-products.component.html',
+    styleUrls: ['./fashion-all-products.component.scss'],
+    standalone: false
 })
 export class FashionAllProductsComponent {
   tabs: string[] = ['All Collection', 'Shoes', 'Clothing', 'Bags'];

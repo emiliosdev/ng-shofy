@@ -3,9 +3,10 @@ import { ProductService } from '@/shared/services/product.service';
 import { IProduct } from '@/types/product-type';
 
 @Component({
-  selector: 'app-product-details-list',
-  templateUrl: './product-details-list.component.html',
-  styleUrls: ['./product-details-list.component.scss']
+    selector: 'app-product-details-list',
+    templateUrl: './product-details-list.component.html',
+    styleUrls: ['./product-details-list.component.scss'],
+    standalone: false
 })
 export class ProductDetailsListComponent {
   public product!: IProduct;

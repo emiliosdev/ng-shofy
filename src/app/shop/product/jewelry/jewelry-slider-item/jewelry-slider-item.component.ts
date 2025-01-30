@@ -5,9 +5,10 @@ import { IProduct } from '@/shared/types/product-type';
 import { UtilsService } from '@/shared/services/utils.service';
 
 @Component({
-  selector: 'app-jewelry-slider-item',
-  templateUrl: './jewelry-slider-item.component.html',
-  styleUrls: ['./jewelry-slider-item.component.scss']
+    selector: 'app-jewelry-slider-item',
+    templateUrl: './jewelry-slider-item.component.html',
+    styleUrls: ['./jewelry-slider-item.component.scss'],
+    standalone: false
 })
 export class JewelrySliderItemComponent {
 

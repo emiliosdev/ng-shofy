@@ -3,9 +3,10 @@ import { CompareService } from '@/shared/services/compare.service';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-compare',
-  templateUrl: './compare.component.html',
-  styleUrls: ['./compare.component.scss']
+    selector: 'app-compare',
+    templateUrl: './compare.component.html',
+    styleUrls: ['./compare.component.scss'],
+    standalone: false
 })
 export class CompareComponent {
 

@@ -7,9 +7,10 @@ import { ProductService } from '@/shared/services/product.service';
 import { IProduct } from '@/types/product-type';
 
 @Component({
-  selector: 'app-jewelry',
-  templateUrl: './jewelry.component.html',
-  styleUrls: ['./jewelry.component.scss'],
+    selector: 'app-jewelry',
+    templateUrl: './jewelry.component.html',
+    styleUrls: ['./jewelry.component.scss'],
+    standalone: false
 })
 export class JewelryComponent {
   // feature data

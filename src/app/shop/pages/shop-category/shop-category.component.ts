@@ -4,9 +4,10 @@ import { Component } from '@angular/core';
 import category_data from '@/data/category-data';
 
 @Component({
-  selector: 'app-shop-category',
-  templateUrl: './shop-category.component.html',
-  styleUrls: ['./shop-category.component.scss'],
+    selector: 'app-shop-category',
+    templateUrl: './shop-category.component.html',
+    styleUrls: ['./shop-category.component.scss'],
+    standalone: false
 })
 export class ShopCategoryComponent {
   public category_data: ICategory[] = category_data;

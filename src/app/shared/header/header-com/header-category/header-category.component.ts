@@ -3,9 +3,10 @@ import { Component,Renderer2  } from '@angular/core';
 import category_data from '@/data/category-data';
 
 @Component({
-  selector: 'app-header-category',
-  templateUrl: './header-category.component.html',
-  styleUrls: ['./header-category.component.scss']
+    selector: 'app-header-category',
+    templateUrl: './header-category.component.html',
+    styleUrls: ['./header-category.component.scss'],
+    standalone: false
 })
 export class HeaderCategoryComponent {
 

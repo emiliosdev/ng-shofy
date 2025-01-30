@@ -3,9 +3,10 @@ import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';
 
 @Component({
-  selector: 'app-beauty-testimonial',
-  templateUrl: './beauty-testimonial.component.html',
-  styleUrls: ['./beauty-testimonial.component.scss']
+    selector: 'app-beauty-testimonial',
+    templateUrl: './beauty-testimonial.component.html',
+    styleUrls: ['./beauty-testimonial.component.scss'],
+    standalone: false
 })
 export class BeautyTestimonialComponent {
   // testimonial data

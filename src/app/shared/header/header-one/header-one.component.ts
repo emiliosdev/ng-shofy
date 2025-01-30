@@ -6,9 +6,10 @@ import { Router } from '@angular/router';
 import { UtilsService } from '@/shared/services/utils.service';
 
 @Component({
-  selector: 'app-header-one',
-  templateUrl: './header-one.component.html',
-  styleUrls: ['./header-one.component.scss'],
+    selector: 'app-header-one',
+    templateUrl: './header-one.component.html',
+    styleUrls: ['./header-one.component.scss'],
+    standalone: false
 })
 export class HeaderOneComponent {
 

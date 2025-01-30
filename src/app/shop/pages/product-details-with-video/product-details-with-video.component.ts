@@ -3,9 +3,10 @@ import { IProduct } from '@/types/product-type';
 import { ProductService } from '@/shared/services/product.service';
 
 @Component({
-  selector: 'app-product-details-with-video',
-  templateUrl: './product-details-with-video.component.html',
-  styleUrls: ['./product-details-with-video.component.scss']
+    selector: 'app-product-details-with-video',
+    templateUrl: './product-details-with-video.component.html',
+    styleUrls: ['./product-details-with-video.component.scss'],
+    standalone: false
 })
 export class ProductDetailsWithVideoComponent {
   public product!: IProduct;

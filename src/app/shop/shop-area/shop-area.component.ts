@@ -5,9 +5,10 @@ import { ProductService } from 'src/app/shared/services/product.service';
 import { IProduct } from '@/types/product-type';
 
 @Component({
-  selector: 'app-shop-area',
-  templateUrl: './shop-area.component.html',
-  styleUrls: ['./shop-area.component.scss']
+    selector: 'app-shop-area',
+    templateUrl: './shop-area.component.html',
+    styleUrls: ['./shop-area.component.scss'],
+    standalone: false
 })
 export class ShopAreaComponent {
   @Input() listStyle: boolean = false;

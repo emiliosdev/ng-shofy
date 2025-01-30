@@ -5,9 +5,10 @@ import { IProduct } from '@/types/product-type';
 import { ProductService } from '@/shared/services/product.service';
 
 @Component({
-  selector: 'app-electronic-new-products',
-  templateUrl: './electronic-new-products.component.html',
-  styleUrls: ['./electronic-new-products.component.scss']
+    selector: 'app-electronic-new-products',
+    templateUrl: './electronic-new-products.component.html',
+    styleUrls: ['./electronic-new-products.component.scss'],
+    standalone: false
 })
 export class ElectronicNewProductsComponent {
   // electronic prd

@@ -4,9 +4,10 @@ import { WishlistService } from '@/shared/services/wishlist.service';
 import { UtilsService } from '@/shared/services/utils.service';
 
 @Component({
-  selector: 'app-header-four',
-  templateUrl: './header-four.component.html',
-  styleUrls: ['./header-four.component.scss']
+    selector: 'app-header-four',
+    templateUrl: './header-four.component.html',
+    styleUrls: ['./header-four.component.scss'],
+    standalone: false
 })
 export class HeaderFourComponent {
 

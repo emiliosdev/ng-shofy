@@ -5,9 +5,10 @@ import { ProductBanner } from '@/data/banner-data';
 import { IProductBanner } from '@/types/banner-d-type';
 
 @Component({
-  selector: 'app-electronic-product-banner',
-  templateUrl: './electronic-product-banner.component.html',
-  styleUrls: ['./electronic-product-banner.component.scss'],
+    selector: 'app-electronic-product-banner',
+    templateUrl: './electronic-product-banner.component.html',
+    styleUrls: ['./electronic-product-banner.component.scss'],
+    standalone: false
 })
 export class ElectronicProductBannerComponent {
 

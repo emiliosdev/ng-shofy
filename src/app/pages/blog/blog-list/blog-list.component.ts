@@ -3,9 +3,10 @@ import { IBlogType } from '@/types/blog-type';
 import blogData from '@/data/blog-data';
 
 @Component({
-  selector: 'app-blog-list',
-  templateUrl: './blog-list.component.html',
-  styleUrls: ['./blog-list.component.scss']
+    selector: 'app-blog-list',
+    templateUrl: './blog-list.component.html',
+    styleUrls: ['./blog-list.component.scss'],
+    standalone: false
 })
 export class BlogListComponent {
 

@@ -5,9 +5,10 @@ import { IProduct } from '@/shared/types/product-type';
 import { UtilsService } from '@/shared/services/utils.service';
 
 @Component({
-  selector: 'app-product-item-three',
-  templateUrl: './product-item-three.component.html',
-  styleUrls: ['./product-item-three.component.scss'],
+    selector: 'app-product-item-three',
+    templateUrl: './product-item-three.component.html',
+    styleUrls: ['./product-item-three.component.scss'],
+    standalone: false
 })
 export class ProductItemThreeComponent {
   @Input() product!: IProduct;

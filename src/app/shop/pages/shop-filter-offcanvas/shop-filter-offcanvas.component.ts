@@ -5,9 +5,10 @@ import { ProductService } from 'src/app/shared/services/product.service';
 import { IProduct } from '@/types/product-type';
 
 @Component({
-  selector: 'app-shop-filter-offcanvas',
-  templateUrl: './shop-filter-offcanvas.component.html',
-  styleUrls: ['./shop-filter-offcanvas.component.scss']
+    selector: 'app-shop-filter-offcanvas',
+    templateUrl: './shop-filter-offcanvas.component.html',
+    styleUrls: ['./shop-filter-offcanvas.component.scss'],
+    standalone: false
 })
 export class ShopFilterOffcanvasComponent {
 

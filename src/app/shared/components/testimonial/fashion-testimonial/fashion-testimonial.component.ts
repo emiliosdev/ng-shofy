@@ -5,9 +5,10 @@ import { fashion_testi_data } from '@/data/testimonial-data';
 import { IFashionTestimonial } from '@/types/testimonial-d-type';
 
 @Component({
-  selector: 'app-fashion-testimonial',
-  templateUrl: './fashion-testimonial.component.html',
-  styleUrls: ['./fashion-testimonial.component.scss'],
+    selector: 'app-fashion-testimonial',
+    templateUrl: './fashion-testimonial.component.html',
+    styleUrls: ['./fashion-testimonial.component.scss'],
+    standalone: false
 })
 export class FashionTestimonialComponent {
 

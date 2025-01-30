@@ -7,9 +7,10 @@ import blogData from '@/data/blog-data';
 
 
 @Component({
-  selector: 'app-blog',
-  templateUrl: './blog.component.html',
-  styleUrls: ['./blog.component.scss'],
+    selector: 'app-blog',
+    templateUrl: './blog.component.html',
+    styleUrls: ['./blog.component.scss'],
+    standalone: false
 })
 export class BlogComponent {
   public blogs: IBlogType[] = [];

@@ -5,9 +5,10 @@ import { CompareService } from '@/shared/services/compare.service';
 import { WishlistService } from '@/shared/services/wishlist.service';
 
 @Component({
-  selector: 'app-product-list-item',
-  templateUrl: './product-list-item.component.html',
-  styleUrls: ['./product-list-item.component.scss']
+    selector: 'app-product-list-item',
+    templateUrl: './product-list-item.component.html',
+    styleUrls: ['./product-list-item.component.scss'],
+    standalone: false
 })
 export class ProductListItemComponent {
   @Input () product! : IProduct;

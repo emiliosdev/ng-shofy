@@ -5,9 +5,10 @@ import Swiper from 'swiper';
 import { Scrollbar } from 'swiper/modules';
 
 @Component({
-  selector: 'app-related-products',
-  templateUrl: './related-products.component.html',
-  styleUrls: ['./related-products.component.scss']
+    selector: 'app-related-products',
+    templateUrl: './related-products.component.html',
+    styleUrls: ['./related-products.component.scss'],
+    standalone: false
 })
 export class RelatedProductsComponent {
   @Input() productId!: string;

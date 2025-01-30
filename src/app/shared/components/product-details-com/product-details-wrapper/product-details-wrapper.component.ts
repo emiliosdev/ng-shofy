@@ -4,9 +4,10 @@ import { ProductService } from 'src/app/shared/services/product.service';
 import { CartService } from '@/shared/services/cart.service';
 
 @Component({
-  selector: 'app-product-details-wrapper',
-  templateUrl: './product-details-wrapper.component.html',
-  styleUrls: ['./product-details-wrapper.component.scss'],
+    selector: 'app-product-details-wrapper',
+    templateUrl: './product-details-wrapper.component.html',
+    styleUrls: ['./product-details-wrapper.component.scss'],
+    standalone: false
 })
 export class ProductDetailsWrapperComponent {
   @Input() product!: IProduct;

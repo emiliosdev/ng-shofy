@@ -2,9 +2,10 @@ import { IBlogType } from '@/types/blog-type';
 import { Component,Input } from '@angular/core';
 
 @Component({
-  selector: 'app-blog-item-two',
-  templateUrl: './blog-item-two.component.html',
-  styleUrls: ['./blog-item-two.component.scss']
+    selector: 'app-blog-item-two',
+    templateUrl: './blog-item-two.component.html',
+    styleUrls: ['./blog-item-two.component.scss'],
+    standalone: false
 })
 export class BlogItemTwoComponent {
 

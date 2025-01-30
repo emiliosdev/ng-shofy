@@ -6,9 +6,10 @@ import { ViewportScroller } from '@angular/common';
 import { ProductService } from 'src/app/shared/services/product.service';
 
 @Component({
-  selector: 'app-price-filter',
-  templateUrl: './price-filter.component.html',
-  styleUrls: ['./price-filter.component.scss'],
+    selector: 'app-price-filter',
+    templateUrl: './price-filter.component.html',
+    styleUrls: ['./price-filter.component.scss'],
+    standalone: false
 })
 export class PriceFilterComponent {
   // Using Output EventEmitter

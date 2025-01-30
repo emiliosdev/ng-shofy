@@ -6,9 +6,10 @@ import { CompareService } from '@/shared/services/compare.service';
 import { UtilsService } from '@/shared/services/utils.service';
 
 @Component({
-  selector: 'app-product-item-two',
-  templateUrl: './product-item-two.component.html',
-  styleUrls: ['./product-item-two.component.scss']
+    selector: 'app-product-item-two',
+    templateUrl: './product-item-two.component.html',
+    styleUrls: ['./product-item-two.component.scss'],
+    standalone: false
 })
 export class ProductItemTwoComponent {
   @Input() product!: IProduct;

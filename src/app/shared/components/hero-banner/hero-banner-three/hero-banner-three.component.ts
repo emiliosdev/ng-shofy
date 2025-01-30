@@ -3,9 +3,10 @@ import Swiper from 'swiper';
 import { Navigation, Pagination, EffectFade } from 'swiper/modules';
 
 @Component({
-  selector: 'app-hero-banner-three',
-  templateUrl: './hero-banner-three.component.html',
-  styleUrls: ['./hero-banner-three.component.scss']
+    selector: 'app-hero-banner-three',
+    templateUrl: './hero-banner-three.component.html',
+    styleUrls: ['./hero-banner-three.component.scss'],
+    standalone: false
 })
 export class HeroBannerThreeComponent {
 

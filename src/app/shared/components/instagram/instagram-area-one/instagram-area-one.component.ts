@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-instagram-area-one',
-  templateUrl: './instagram-area-one.component.html',
-  styleUrls: ['./instagram-area-one.component.scss']
+    selector: 'app-instagram-area-one',
+    templateUrl: './instagram-area-one.component.html',
+    styleUrls: ['./instagram-area-one.component.scss'],
+    standalone: false
 })
 export class InstagramAreaOneComponent {
 

@@ -5,9 +5,10 @@ import { IBlogType } from '@/types/blog-type';
 import { UtilsService } from '@/shared/services/utils.service';
 
 @Component({
-  selector: 'app-blog-postbox-item',
-  templateUrl: './blog-postbox-item.component.html',
-  styleUrls: ['./blog-postbox-item.component.scss'],
+    selector: 'app-blog-postbox-item',
+    templateUrl: './blog-postbox-item.component.html',
+    styleUrls: ['./blog-postbox-item.component.scss'],
+    standalone: false
 })
 export class BlogPostboxItemComponent {
   @ViewChild('swiperContainer') swiperContainer!: ElementRef;

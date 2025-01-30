@@ -3,9 +3,10 @@ import { ProductService } from '@/shared/services/product.service';
 import { IProduct } from '@/types/product-type';
 
 @Component({
-  selector: 'app-top-rated-products',
-  templateUrl: './top-rated-products.component.html',
-  styleUrls: ['./top-rated-products.component.scss']
+    selector: 'app-top-rated-products',
+    templateUrl: './top-rated-products.component.html',
+    styleUrls: ['./top-rated-products.component.scss'],
+    standalone: false
 })
 export class TopRatedProductsComponent {
 

@@ -4,9 +4,10 @@ import { register } from 'swiper/element/bundle';
 register();
 
 @Component({
-  selector: 'app-hero-banner-four',
-  templateUrl: './hero-banner-four.component.html',
-  styleUrls: ['./hero-banner-four.component.scss']
+    selector: 'app-hero-banner-four',
+    templateUrl: './hero-banner-four.component.html',
+    styleUrls: ['./hero-banner-four.component.scss'],
+    standalone: false
 })
 export class HeroBannerFourComponent {
   thumbsSwiper: Swiper | undefined;

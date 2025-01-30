@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-shop-right-sidebar',
-  templateUrl: './shop-right-sidebar.component.html',
-  styleUrls: ['./shop-right-sidebar.component.scss']
+    selector: 'app-shop-right-sidebar',
+    templateUrl: './shop-right-sidebar.component.html',
+    styleUrls: ['./shop-right-sidebar.component.scss'],
+    standalone: false
 })
 export class ShopRightSidebarComponent {
 

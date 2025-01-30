@@ -4,9 +4,10 @@ import Swiper from 'swiper';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 @Component({
-  selector: 'app-electronic-blog-area',
-  templateUrl: './electronic-blog-area.component.html',
-  styleUrls: ['./electronic-blog-area.component.scss'],
+    selector: 'app-electronic-blog-area',
+    templateUrl: './electronic-blog-area.component.html',
+    styleUrls: ['./electronic-blog-area.component.scss'],
+    standalone: false
 })
 export class ElectronicBlogAreaComponent {
   // blog data

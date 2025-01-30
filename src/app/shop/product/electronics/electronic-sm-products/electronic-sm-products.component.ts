@@ -3,9 +3,10 @@ import { IProduct } from '@/types/product-type';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-electronic-sm-products',
-  templateUrl: './electronic-sm-products.component.html',
-  styleUrls: ['./electronic-sm-products.component.scss']
+    selector: 'app-electronic-sm-products',
+    templateUrl: './electronic-sm-products.component.html',
+    styleUrls: ['./electronic-sm-products.component.scss'],
+    standalone: false
 })
 export class ElectronicSmProductsComponent {
   // electronic prd

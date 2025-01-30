@@ -2,9 +2,10 @@ import { Component,ElementRef,Renderer2,ViewChild,Input } from '@angular/core';
 import { IProduct } from '@/types/product-type';
 
 @Component({
-  selector: 'app-product-details-tab-nav',
-  templateUrl: './product-details-tab-nav.component.html',
-  styleUrls: ['./product-details-tab-nav.component.scss']
+    selector: 'app-product-details-tab-nav',
+    templateUrl: './product-details-tab-nav.component.html',
+    styleUrls: ['./product-details-tab-nav.component.scss'],
+    standalone: false
 })
 export class ProductDetailsTabNavComponent {
   @ViewChild('navActive') navActive!: ElementRef;

@@ -6,9 +6,10 @@ import brands_data from '@/data/brand-data';
 import { ProductService } from 'src/app/shared/services/product.service';
 
 @Component({
-  selector: 'app-brand-filter',
-  templateUrl: './brand-filter.component.html',
-  styleUrls: ['./brand-filter.component.scss'],
+    selector: 'app-brand-filter',
+    templateUrl: './brand-filter.component.html',
+    styleUrls: ['./brand-filter.component.scss'],
+    standalone: false
 })
 export class BrandFilterComponent {
   public brandsData: IBrand[] = brands_data;

@@ -3,9 +3,10 @@ import { ProductService } from '@/shared/services/product.service';
 import { IProduct } from '@/types/product-type';
 
 @Component({
-  selector: 'app-fashion-best-sell-items',
-  templateUrl: './fashion-best-sell-items.component.html',
-  styleUrls: ['./fashion-best-sell-items.component.scss']
+    selector: 'app-fashion-best-sell-items',
+    templateUrl: './fashion-best-sell-items.component.html',
+    styleUrls: ['./fashion-best-sell-items.component.scss'],
+    standalone: false
 })
 export class FashionBestSellItemsComponent {
 

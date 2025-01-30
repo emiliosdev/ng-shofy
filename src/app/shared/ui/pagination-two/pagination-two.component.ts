@@ -1,9 +1,10 @@
 import { Component,EventEmitter,Input,Output } from '@angular/core';
 
 @Component({
-  selector: 'app-pagination-two',
-  templateUrl: './pagination-two.component.html',
-  styleUrls: ['./pagination-two.component.scss']
+    selector: 'app-pagination-two',
+    templateUrl: './pagination-two.component.html',
+    styleUrls: ['./pagination-two.component.scss'],
+    standalone: false
 })
 export class PaginationTwoComponent {
 

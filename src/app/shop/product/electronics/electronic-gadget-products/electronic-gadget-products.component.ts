@@ -3,9 +3,10 @@ import { ProductService } from '@/shared/services/product.service';
 import { IProduct } from '@/types/product-type';
 
 @Component({
-  selector: 'app-electronic-gadget-products',
-  templateUrl: './electronic-gadget-products.component.html',
-  styleUrls: ['./electronic-gadget-products.component.scss']
+    selector: 'app-electronic-gadget-products',
+    templateUrl: './electronic-gadget-products.component.html',
+    styleUrls: ['./electronic-gadget-products.component.scss'],
+    standalone: false
 })
 export class ElectronicGadgetProductsComponent {
   // electronic prd

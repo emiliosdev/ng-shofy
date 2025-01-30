@@ -4,9 +4,10 @@ import { IProduct } from '@/types/product-type';
 import { ProductService } from 'src/app/shared/services/product.service';
 
 @Component({
-  selector: 'app-product-details-thumb',
-  templateUrl: './product-details-thumb.component.html',
-  styleUrls: ['./product-details-thumb.component.scss'],
+    selector: 'app-product-details-thumb',
+    templateUrl: './product-details-thumb.component.html',
+    styleUrls: ['./product-details-thumb.component.scss'],
+    standalone: false
 })
 export class ProductDetailsThumbComponent {
   @Input() product!: IProduct;

@@ -4,9 +4,10 @@ import { Navigation, Pagination,EffectFade } from 'swiper/modules';
 
 
 @Component({
-  selector: 'app-hero-banner-one',
-  templateUrl: './hero-banner-one.component.html',
-  styleUrls: ['./hero-banner-one.component.scss']
+    selector: 'app-hero-banner-one',
+    templateUrl: './hero-banner-one.component.html',
+    styleUrls: ['./hero-banner-one.component.scss'],
+    standalone: false
 })
 export class HeroBannerOneComponent {
 

@@ -3,9 +3,10 @@ import coupon_data from '@/data/coupon-data';
 import { ICoupon } from '@/types/coupon-type';
 
 @Component({
-  selector: 'app-coupon',
-  templateUrl: './coupon.component.html',
-  styleUrls: ['./coupon.component.scss']
+    selector: 'app-coupon',
+    templateUrl: './coupon.component.html',
+    styleUrls: ['./coupon.component.scss'],
+    standalone: false
 })
 export class CouponComponent {
   public coupons = coupon_data;

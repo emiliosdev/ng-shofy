@@ -3,9 +3,10 @@ import { ProductService } from '@/shared/services/product.service';
 import { IProduct } from '@/types/product-type';
 
 @Component({
-  selector: 'app-product-details-with-countdown',
-  templateUrl: './product-details-with-countdown.component.html',
-  styleUrls: ['./product-details-with-countdown.component.scss']
+    selector: 'app-product-details-with-countdown',
+    templateUrl: './product-details-with-countdown.component.html',
+    styleUrls: ['./product-details-with-countdown.component.scss'],
+    standalone: false
 })
 export class ProductDetailsWithCountdownComponent {
 

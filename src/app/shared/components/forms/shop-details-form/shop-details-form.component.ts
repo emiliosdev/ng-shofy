@@ -3,9 +3,10 @@ import { ToastrService } from 'ngx-toastr';
 import { FormControl, FormGroup,Validators } from '@angular/forms';
 
 @Component({
-  selector: 'app-shop-details-form',
-  templateUrl: './shop-details-form.component.html',
-  styleUrls: ['./shop-details-form.component.scss']
+    selector: 'app-shop-details-form',
+    templateUrl: './shop-details-form.component.html',
+    styleUrls: ['./shop-details-form.component.scss'],
+    standalone: false
 })
 export class ShopDetailsFormComponent {
 

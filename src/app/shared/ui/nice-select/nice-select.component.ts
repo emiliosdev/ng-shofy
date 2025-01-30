@@ -1,9 +1,10 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'app-nice-select',
-  templateUrl: './nice-select.component.html',
-  styleUrls: ['./nice-select.component.scss'],
+    selector: 'app-nice-select',
+    templateUrl: './nice-select.component.html',
+    styleUrls: ['./nice-select.component.scss'],
+    standalone: false
 })
 export class NiceSelectComponent {
   @Input() options!: { value: string; text: string }[];

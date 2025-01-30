@@ -5,9 +5,10 @@ import { ProductService } from 'src/app/shared/services/product.service';
 import { IProduct } from '@/types/product-type';
 
 @Component({
-  selector: 'app-shop-load-more',
-  templateUrl: './shop-load-more.component.html',
-  styleUrls: ['./shop-load-more.component.scss']
+    selector: 'app-shop-load-more',
+    templateUrl: './shop-load-more.component.html',
+    styleUrls: ['./shop-load-more.component.scss'],
+    standalone: false
 })
 export class ShopLoadMoreComponent {
 

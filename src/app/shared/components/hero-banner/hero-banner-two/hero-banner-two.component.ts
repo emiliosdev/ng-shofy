@@ -3,9 +3,10 @@ import Swiper from 'swiper';
 import { Navigation, Pagination,EffectFade } from 'swiper/modules';
 
 @Component({
-  selector: 'app-hero-banner-two',
-  templateUrl: './hero-banner-two.component.html',
-  styleUrls: ['./hero-banner-two.component.scss']
+    selector: 'app-hero-banner-two',
+    templateUrl: './hero-banner-two.component.html',
+    styleUrls: ['./hero-banner-two.component.scss'],
+    standalone: false
 })
 export class HeroBannerTwoComponent  {
   public slider_data = [

@@ -4,9 +4,10 @@ import { IFeature } from '@/data/feature-data';
 import feature_data from '@/data/feature-data';
 
 @Component({
-  selector: 'app-feature-one',
-  templateUrl: './feature-one.component.html',
-  styleUrls: ['./feature-one.component.scss']
+    selector: 'app-feature-one',
+    templateUrl: './feature-one.component.html',
+    styleUrls: ['./feature-one.component.scss'],
+    standalone: false
 })
 export class FeatureOneComponent {
   public feature_items:IFeature[] = feature_data;

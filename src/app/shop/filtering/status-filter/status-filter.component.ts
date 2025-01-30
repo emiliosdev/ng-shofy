@@ -4,9 +4,10 @@ import { ActivatedRoute, Params, Router } from '@angular/router';
 import { ProductService } from 'src/app/shared/services/product.service';
 
 @Component({
-  selector: 'app-status-filter',
-  templateUrl: './status-filter.component.html',
-  styleUrls: ['./status-filter.component.scss'],
+    selector: 'app-status-filter',
+    templateUrl: './status-filter.component.html',
+    styleUrls: ['./status-filter.component.scss'],
+    standalone: false
 })
 export class StatusFilterComponent {
   status: string[] = ['On sale', 'In Stock','Out of stock'];

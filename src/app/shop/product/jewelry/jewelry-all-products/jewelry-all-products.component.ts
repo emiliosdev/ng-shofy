@@ -3,9 +3,10 @@ import { IProduct } from '@/types/product-type';
 import { ProductService } from '@/shared/services/product.service';
 
 @Component({
-  selector: 'app-jewelry-all-products',
-  templateUrl: './jewelry-all-products.component.html',
-  styleUrls: ['./jewelry-all-products.component.scss']
+    selector: 'app-jewelry-all-products',
+    templateUrl: './jewelry-all-products.component.html',
+    styleUrls: ['./jewelry-all-products.component.scss'],
+    standalone: false
 })
 export class JewelryAllProductsComponent {
 

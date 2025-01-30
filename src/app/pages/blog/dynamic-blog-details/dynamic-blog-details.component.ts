@@ -4,9 +4,10 @@ import { ActivatedRoute, Router } from '@angular/router';
 import blogData from '@/data/blog-data';
 
 @Component({
-  selector: 'app-dynamic-blog-details',
-  templateUrl: './dynamic-blog-details.component.html',
-  styleUrls: ['./dynamic-blog-details.component.scss']
+    selector: 'app-dynamic-blog-details',
+    templateUrl: './dynamic-blog-details.component.html',
+    styleUrls: ['./dynamic-blog-details.component.scss'],
+    standalone: false
 })
 export class DynamicBlogDetailsComponent {
 

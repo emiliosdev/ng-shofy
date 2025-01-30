@@ -2,9 +2,10 @@ import { Component, EventEmitter, Output } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-reset-filter-route',
-  templateUrl: './reset-filter-route.component.html',
-  styleUrls: ['./reset-filter-route.component.scss']
+    selector: 'app-reset-filter-route',
+    templateUrl: './reset-filter-route.component.html',
+    styleUrls: ['./reset-filter-route.component.scss'],
+    standalone: false
 })
 export class ResetFilterRouteComponent {
 

@@ -6,9 +6,10 @@ import { ICategory } from '@/types/category-type';
 import { ProductService } from 'src/app/shared/services/product.service';
 
 @Component({
-  selector: 'app-category-filter',
-  templateUrl: './category-filter.component.html',
-  styleUrls: ['./category-filter.component.scss'],
+    selector: 'app-category-filter',
+    templateUrl: './category-filter.component.html',
+    styleUrls: ['./category-filter.component.scss'],
+    standalone: false
 })
 export class CategoryFilterComponent {
   public categoryData: ICategory[] = category_data;
